@@ -1,6 +1,7 @@
 # work_sen
 基于Jsoup的网络数据爬取完整项目
-——完成于14年底，开发环境Eclipse。（学习状态，很多基础注释，希望能帮助到大家，谢谢浏览）
+——完成于14年底，开发环境Eclipse。
+（当时在学习状态，很多基础注释，希望能帮助到大家，谢谢浏览）
 
 [从ip138爬取的四个功能：](http://www.ip138.com/)
 
@@ -13,10 +14,10 @@
 ####本地数据存储：
 把一些不经常变动的数据存入了数据库，节省一定流量，避免每次抓取数据都需要去爬整个网页。比如全国地名天气的url（可以从Menu键选择网上爬取更新，也可用本地文件已写数据库）、已查的手机号数据。
 
-####网络相关
+####网络相关：
 没有使用框架，直接用的HttpURLConnection请求网络数据。
 
-####基本样式
+####基本样式：
 ![选择器](https://github.com/PengSen/work_sen/blob/master/Image/image_select.png)
 ![菜单键](https://github.com/PengSen/work_sen/blob/master/Image/image_menu.png) 
 现在菜单键已经在淘汰边缘了~
