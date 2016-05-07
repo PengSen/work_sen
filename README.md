@@ -21,6 +21,7 @@
 ![选择器](https://github.com/PengSen/work_sen/blob/master/Image/image_select.png)
 
 现在菜单键已经在淘汰边缘了~：
+
 ![菜单键](https://github.com/PengSen/work_sen/blob/master/Image/image_menu.png) 
 
 有基于百度的定位，可以上滑查看本城市的天气预报：
