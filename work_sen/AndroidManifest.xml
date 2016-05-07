@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ob.workmain"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+    <uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> 
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />  
+  <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />  
+  <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />  
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" 
+        android:theme="@android:style/Theme.Black.NoTitleBar">
+        <meta-data android:name="com.amap.api.v2.apikey"
+            android:value="396c30bcc78d8b38ac48f9db34845636"/>
+       
+        <activity
+            android:label="@string/app_name"
+            android:name="com.ob.main.MainActivity" 
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ob.main.MeActivity" android:theme="@style/Transparent"></activity>
+        <activity android:name="com.ob.main.WeatherShowActivity"></activity>
+        
+    </application>
+
+</manifest> 

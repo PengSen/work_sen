@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">生活小四</string>
+	<string name="id">身份验证</string>
+	<string name="phone">手机查询</string>
+	<string name="weather">气候查询</string>
+	<string name="plate">车牌识别</string>
+	<string name="tourism">景区天气</string>
+	<string name="loading_txt">数据录入中,请保持网络畅通……</string>
+	<string name="location">正在定位...</string>
+</resources>

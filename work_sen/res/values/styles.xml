@@ -1,0 +1,25 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+    
+    <style name="Transparent" parent="android:style/Theme.Dialog">  
+        <item name="android:windowNoTitle">true</item>  
+        <item name="android:windowIsTranslucent">true</item>  
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>  
+    </style>  
+
+    <style name="menu_btn_style">
+        <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:layout_alignParentRight">true</item>
+	    <item name="android:visibility">gone</item>
+    </style>
+    <!-- 自定义loading dialog -->
+   <!--  <style name="loading_dialog" parent="android:style/Theme.Dialog">
+		<item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item> 
+        <item name="android:windowBackground">@drawable/bg</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+	</style>   -->
+</resources>
